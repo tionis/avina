@@ -68,7 +68,7 @@ func codRoll(amount int, modifier string) (string, error) {
 		}
 	}
 	var suffix string
-	isCritFail := ones >= resultCount/2
+	isCritFail := ones > 0 && ones >= resultCount/2
 	if isCritFail {
 		suffix = "You have a [Critical Failure]!"
 		if successes > 0 {
