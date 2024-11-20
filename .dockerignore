@@ -1,0 +1,102 @@
+# flyctl launch added from .gitignore
+**/.idea
+**/.vscode
+**/avina
+**/bins
+
+# flyctl launch added from vendor/github.com/bwmarrin/discordgo/.gitignore
+# IDE-specific metadata
+vendor/github.com/bwmarrin/discordgo/**/.idea
+
+# Environment variables. Useful for examples.
+vendor/github.com/bwmarrin/discordgo/**/.env
+
+# flyctl launch added from vendor/github.com/gorilla/websocket/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/github.com/gorilla/websocket/**/*.o
+vendor/github.com/gorilla/websocket/**/*.a
+vendor/github.com/gorilla/websocket/**/*.so
+
+# Folders
+vendor/github.com/gorilla/websocket/**/_obj
+vendor/github.com/gorilla/websocket/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/github.com/gorilla/websocket/**/*.[568vq]
+vendor/github.com/gorilla/websocket/**/[568vq].out
+
+vendor/github.com/gorilla/websocket/**/*.cgo1.go
+vendor/github.com/gorilla/websocket/**/*.cgo2.c
+vendor/github.com/gorilla/websocket/**/_cgo_defun.c
+vendor/github.com/gorilla/websocket/**/_cgo_gotypes.go
+vendor/github.com/gorilla/websocket/**/_cgo_export.*
+
+vendor/github.com/gorilla/websocket/**/_testmain.go
+
+vendor/github.com/gorilla/websocket/**/*.exe
+
+vendor/github.com/gorilla/websocket/**/.idea
+vendor/github.com/gorilla/websocket/**/*.iml
+
+# flyctl launch added from vendor/github.com/pkg/errors/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/github.com/pkg/errors/**/*.o
+vendor/github.com/pkg/errors/**/*.a
+vendor/github.com/pkg/errors/**/*.so
+
+# Folders
+vendor/github.com/pkg/errors/**/_obj
+vendor/github.com/pkg/errors/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/github.com/pkg/errors/**/*.[568vq]
+vendor/github.com/pkg/errors/**/[568vq].out
+
+vendor/github.com/pkg/errors/**/*.cgo1.go
+vendor/github.com/pkg/errors/**/*.cgo2.c
+vendor/github.com/pkg/errors/**/_cgo_defun.c
+vendor/github.com/pkg/errors/**/_cgo_gotypes.go
+vendor/github.com/pkg/errors/**/_cgo_export.*
+
+vendor/github.com/pkg/errors/**/_testmain.go
+
+vendor/github.com/pkg/errors/**/*.exe
+vendor/github.com/pkg/errors/**/*.test
+vendor/github.com/pkg/errors/**/*.prof
+
+# flyctl launch added from vendor/gopkg.in/tucnak/telebot.v2/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/gopkg.in/tucnak/telebot.v2/**/*.o
+vendor/gopkg.in/tucnak/telebot.v2/**/*.a
+vendor/gopkg.in/tucnak/telebot.v2/**/*.so
+
+# Folders
+vendor/gopkg.in/tucnak/telebot.v2/**/_obj
+vendor/gopkg.in/tucnak/telebot.v2/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/gopkg.in/tucnak/telebot.v2/**/*.[568vq]
+vendor/gopkg.in/tucnak/telebot.v2/**/[568vq].out
+
+vendor/gopkg.in/tucnak/telebot.v2/**/*.cgo1.go
+vendor/gopkg.in/tucnak/telebot.v2/**/*.cgo2.c
+vendor/gopkg.in/tucnak/telebot.v2/**/_cgo_defun.c
+vendor/gopkg.in/tucnak/telebot.v2/**/_cgo_gotypes.go
+vendor/gopkg.in/tucnak/telebot.v2/**/_cgo_export.*
+
+vendor/gopkg.in/tucnak/telebot.v2/**/_testmain.go
+
+vendor/gopkg.in/tucnak/telebot.v2/**/*.exe
+vendor/gopkg.in/tucnak/telebot.v2/**/*.test
+vendor/gopkg.in/tucnak/telebot.v2/**/*.prof
+
+vendor/gopkg.in/tucnak/telebot.v2/**/.idea
+vendor/gopkg.in/tucnak/telebot.v2/**/.DS_Store
+vendor/gopkg.in/tucnak/telebot.v2/**/coverage.txt
+
+# Terraform artifacts
+vendor/gopkg.in/tucnak/telebot.v2/**/*.zip
+vendor/gopkg.in/tucnak/telebot.v2/**/.terraform*
+vendor/gopkg.in/tucnak/telebot.v2/**/terraform*
+vendor/gopkg.in/tucnak/telebot.v2/examples/awslambdaechobot/awslambdaechobot
+fly.toml
