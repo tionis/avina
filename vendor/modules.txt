@@ -13,16 +13,16 @@ github.com/pkg/errors
 # github.com/tionis/uni-passau-bot v0.1.5
 ## explicit; go 1.20
 github.com/tionis/uni-passau-bot/api
-# golang.org/x/crypto v0.17.0
-## explicit; go 1.18
+# golang.org/x/crypto v0.31.0
+## explicit; go 1.20
 golang.org/x/crypto/internal/alias
 golang.org/x/crypto/internal/poly1305
 golang.org/x/crypto/nacl/secretbox
 golang.org/x/crypto/salsa20/salsa
-# golang.org/x/sys v0.15.0
+# golang.org/x/sys v0.28.0
 ## explicit; go 1.18
 golang.org/x/sys/cpu
-# golang.org/x/text v0.16.0
+# golang.org/x/text v0.21.0
 ## explicit; go 1.18
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
