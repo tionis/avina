@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	UniPassauBot "github.com/tionis/uni-passau-bot/api"
+	// UniPassauBot "github.com/tionis/uni-passau-bot/api"
 	"log"
 	"log/slog"
 	"net/http"
@@ -23,10 +23,10 @@ func main() {
 		log.Fatal("Discord app id not set")
 	}
 
-	uniPassauBotTelegramToken := os.Getenv("UNIPASSAU_BOT_TELEGRAM_TOKEN")
-	if uniPassauBotTelegramToken != "" {
-		go UniPassauBot.UniPassauBot(logger.WithGroup("UniPassauBot"), uniPassauBotTelegramToken)
-	}
+	// uniPassauBotTelegramToken := os.Getenv("UNIPASSAU_BOT_TELEGRAM_TOKEN")
+	// if uniPassauBotTelegramToken != "" {
+	// 	go UniPassauBot.UniPassauBot(logger.WithGroup("UniPassauBot"), uniPassauBotTelegramToken)
+	// }
 
 	// Start a http server on port 8080 for health checks
 	go func() {
